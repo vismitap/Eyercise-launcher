@@ -1,0 +1,91 @@
+
+html{
+    min-height: 380px;
+    width: 480px;
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+div{
+    height: 350px;
+    width:450px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow:5px 10px rgb(85, 83, 83) ;
+   background-color: rgb(245, 228, 171);
+    
+}
+   
+p{   
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+img{
+    position: absolute;
+    height: 80px;
+    width: 150px;
+    
+
+  
+}
+
+#left{
+    padding-right: 80px;
+   clear: both;
+  transform: rotatey(-180deg);
+  animation: eyes 1s 1 ease-in;
+    animation-delay: 1s;
+  
+}
+
+#right{
+    clear: both;
+ padding-left: 230px;
+ animation: eyes 1s 1 ease-in;
+  
+}
+
+
+
+#btn{
+  
+    margin-top: 130px;
+    position: absolute;
+    cursor: pointer;
+    background-color: rgba(247, 191, 107, 0.7);
+    text-align: center;
+    font-size: 28px;
+    margin-left: 155px;
+    padding: 10px;
+    width: 120px;
+    box-shadow: 5px 10px rgb(128, 105, 0);
+    text-decoration: none;
+    display: block;
+    color: black;
+   }
+
+   #btn:active{
+       transform:translateY(10px) ;
+       box-shadow: 0px 0px;
+   }
+
+   #btn:hover{
+    background-color: rgb(252, 173, 54);
+     }
+
+
+   @keyframes eyes{
+   0%{
+       height: 80px;
+   }
+   75%{
+       height: 90px;
+   }
+   100%{
+      height: 80px;
+   }
+   }

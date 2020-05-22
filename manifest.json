@@ -1,0 +1,18 @@
+{
+    "manifest_version" : 2 ,
+    "name" :  "Eyercise" ,
+    "description" : "Eye exerises to strengthen your eye muscles and keep you going for a long time on your computer! ",
+     "version" : "1.0.0",
+     "icons" : {"128" : "icon.png"} ,
+     "browser_action" : {
+         "default_popup": "popup.html",
+         "default_icon": "icon.png"
+         
+     },
+
+     "permissions" : ["activeTab"]
+
+
+
+
+}
