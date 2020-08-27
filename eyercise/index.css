@@ -1,0 +1,31 @@
+body{
+    background-image: url('eye_background2.png');
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: exclusion;
+    
+    
+}
+
+p{
+    color: white;
+    font-family: Arvo;
+}
+
+#heading{
+    text-align: center;
+    font-size: 50px;
+    }
+
+#taskPara{
+    text-align: center;
+    font-size: 60px;
+}
+
+#counter{
+    text-align: center;
+    margin-top: -20px;
+    font-size: 120px;
+    color:rgb(250, 231, 58);
+}

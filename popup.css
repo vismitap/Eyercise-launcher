@@ -7,29 +7,31 @@ html{
     
 
 }
-div{
+.main{
     height: 350px;
     width:450px;
     border: 1px solid black;
     border-radius: 20px;
     box-shadow:5px 10px rgb(85, 83, 83) ;
    background-color: rgb(245, 228, 171);
-    
+ 
 }
    
 p{   
     text-align: center;
-    padding-top: 20px;
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
+
+.eyecon{
+   display: flex;
+}
 
 img{
     position: absolute;
     height: 80px;
     width: 150px;
-    
-
+    top:80px;
   
 }
 
@@ -49,11 +51,13 @@ img{
   
 }
 
+#time{
+    align-items: center;
+}
 
 
-#btn{
+#btnLaunch{
   
-    margin-top: 130px;
     position: absolute;
     cursor: pointer;
     background-color: rgba(247, 191, 107, 0.7);
@@ -62,25 +66,26 @@ img{
     margin-left: 155px;
     padding: 10px;
     width: 120px;
-    box-shadow: 5px 10px rgb(128, 105, 0);
+    box-shadow: 5px 5px rgb(128, 105, 0);
     text-decoration: none;
     display: block;
     color: black;
+    border-radius: 10px;
    }
 
-   #btn:active{
+   #btnLaunch:active{
        transform:translateY(10px) ;
        box-shadow: 0px 0px;
    }
 
-   #btn:hover{
+   #btnLaunch:hover{
     background-color: rgb(252, 173, 54);
      }
 
 
    @keyframes eyes{
    0%{
-       height: 80px;
+       height:80px;
    }
    75%{
        height: 90px;
