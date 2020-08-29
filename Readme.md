@@ -1,5 +1,5 @@
 ## Eyercise
-Having a good eye-sight in current times after being exposed to harmful blue light from computer screens is indeed a blessing! Isn't it? Scientists have proved that doing small eye-exercises or eye-yoga in regular intervals of time can help in keeping the eyes in good health. Eyercise helps you do exactly that!
+Having a good eyesight in current times after being exposed to harmful blue light from computer screens is indeed a blessing! Isn't it? Scientists have proved that doing small eye-exercises or eye-yoga in regular intervals of time can help in keeping the eyes in good health. Eyercise helps you do exactly that!
 
 Presenting Eyercise, a google extension that would remind you to de-strain your eyes and workout your eye muscles in equal intervals of time to keep you away from all eye-related issues.
 
